@@ -1,0 +1,119 @@
+body {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 75px;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+h2, h3 {
+  color: #222;
+  font-size: 30px;
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+p {
+  max-width: 700px;
+  min-width: 500px;
+  margin-left: 20px;
+  margin: 0 auto 1em;
+  line-height: 1.7;
+  color: #000000;
+  text-align: center;
+}
+
+header, footer {
+  background-color: #4a5f4f;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+nav {
+  width: 100%;
+  background-color: rgba(74, 95, 79, 0.8);
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 2rem;
+  font-size: 20px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #3d493e;
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 15px;
+  border: 3px solid #6b8070;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #000;
+  text-align: center;
+  margin-top: -0.5rem;
+}
+
+ul, ol {
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+section, aside {
+  position: relative;
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+
+section::after,
+aside::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: rgba(60, 90, 69, 0.45);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+}
